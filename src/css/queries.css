@@ -1,0 +1,197 @@
+/* Big tablet - 1024px - 1200px
+*****************************************/
+@media only screen and (max-width: 1200px) {
+	section {
+		padding: 30px;
+		margin: 16px auto;
+	}
+
+	.nav-list {
+		display: block;
+	} 
+
+	/* header */
+	.hero-text-para,.hero-text-box {
+		display: inline-block;
+		float: none;
+		width: 80%;
+		padding: 16px;
+		margin: 8px 8px;
+	}
+
+
+	/* features */
+	.features-header h2 { font-size: 120%; }
+	.feature-box { padding: 16px 8px; }
+	
+	/* products */
+	.product-buttons-list li {
+		display: block;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+	.product-buttons-list a {
+		display: block;
+		width: 100%;
+	}
+
+	/* reachout */
+	.reachout-links-image p {
+		width: 50%;
+	}
+
+	/* resources */
+	.card { width: 400px; }
+
+	/* footer */
+	.footer-list,.footer-register { width: 40%; }
+}
+
+/* Tablets - 768px - 1023px
+*****************************************/
+@media only screen and (max-width: 1023px) {
+	
+}
+
+
+/* Small phones/ tablets - 481px - 767px
+*****************************************/
+@media only screen and (max-width: 767px) {
+
+	body {
+		font-size: 95%;
+	}
+	.nav-list { display: none; }
+	.nav-mob-btn-open { display: inline-block; }
+	.hero-text-para,.hero-text-box {
+		width: 100%;
+		margin: 8px;
+	}
+
+	.client-list {
+		height: 80px;
+	}
+
+	.features-header {
+		width: 60%;
+		padding: 8px;
+	}
+
+
+	.rankings-report {
+		margin-bottom: 32px;
+	}
+	.rankings-report .line-1 {
+		font-size: 1.3rem;
+	}
+	.rankings-report .line-2 {
+		font-size: 1.8rem;
+	}
+	.rankings-report .line-3 {
+		margin-bottom: 16px;
+		font-size: 2.5rem;
+	}
+
+	.product-container {
+		text-align: center;
+	}
+	.product-image {
+		display: none;
+	}
+	.product-info {
+		width: 100%;
+		margin-top: 16px;
+	}
+
+
+	.reachout-links-container {
+		background-color: #fff;
+	}
+
+	.reachout-links {
+		width: 100%;
+	}
+
+	.reachout-links li {
+		display: block;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+	}
+
+	.footer {
+		padding: 30px 30px;
+	}
+
+	.footer-list {
+		width: 100%;
+	}
+}
+
+
+/* Small phones - Less than or equal to 480px
+*********************************************/
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 90%;
+	}
+	section {
+		margin: 16px 0;
+		padding: 8px 8px;
+	}
+
+	.features-header {
+		width: 90%;
+		padding: 0;
+	}
+	.feature-box {
+		font-size: 0.7rem;
+	}
+
+
+
+	.rankings-report, .rankings-summary {
+		float: none;
+	}
+	.rankings-report {
+		margin-bottom: 32px;
+	}
+	.rankings-report .line-1 {
+		font-size: 0.9rem;
+	}
+	.rankings-report .line-2 {
+		font-size: 0.9rem;
+	}
+	.rankings-report .line-3 {
+		margin-bottom: 16px;
+		font-size: 1.5rem;
+	}
+
+	.reachout-links-image p {
+		text-align: center;
+		width: 80%;
+	}
+
+
+	.resources { 
+		padding: 20px 0;	
+	}
+	.card { 
+		margin: 20px 0;
+	}
+
+	
+	.footer {
+		width: 100%;
+		margin: 0;
+		padding: 8px 8px;
+	}
+	.footer-list , 
+	.footer-register,
+	.footer-register p 
+	{
+		width: 100%;
+	}
+	
+}
